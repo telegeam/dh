@@ -4549,9 +4549,6 @@
 </urlset>
 
 
-POST /webmaster/api.svc/pox/SubmitUrlBatch?apikey=fbbe386e50254abd9cd7079838ca29b9 HTTP/1.1
-Content-Type: application/xml; charset=utf-8
-Host: ssl.bing.com
 
 
 <SubmitUrlBatch xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Bing.Webmaster.Api">
