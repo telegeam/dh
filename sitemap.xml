@@ -4547,3 +4547,17 @@
     <loc>https://telegeam.github.io/dh/</loc>
   </url>
 </urlset>
+
+
+POST /webmaster/api.svc/pox/SubmitUrlBatch?apikey=fbbe386e50254abd9cd7079838ca29b9 HTTP/1.1
+Content-Type: application/xml; charset=utf-8
+Host: ssl.bing.com
+
+
+<SubmitUrlBatch xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Bing.Webmaster.Api">
+	<siteUrl>https://telegeam.github.io/dh/</siteUrl>
+<urlList>
+<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">https://telegeam.github.io/dh/sites/</string>
+<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">https://telegeam.github.io/dh/</string>
+</urlList>
+</SubmitUrlBatch>
